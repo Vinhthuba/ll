@@ -1,0 +1,9 @@
+CREATE TABLE hotels(
+ hotel_id int PRIMARY KEY AUTO_INCREMENT,
+ name varchar(255),
+ address varchar(255),
+ city varchar(255),
+ country varchar(255),
+ rating float,
+ facilities varchar(255)
+)
